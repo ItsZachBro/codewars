@@ -4,7 +4,7 @@ function findMultiples(num, limit) {
   
     // iterate from num up to limit with a step of num
     for (let i = num; i <= limit; i += num) {
-      multiples.push(i) // add the current number to multiples array
+      multiples.push(i) // add the current number to the multiples array
     }
   
     return multiples
