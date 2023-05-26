@@ -19,7 +19,7 @@ function solution(number) {
     let str = "";
   
     // get keys from the `romanNumeral` object and convert them to numbers
-    // then sort them in descending order inorder to ensure acurate conversions
+    // then sort them in descending order inorder to ensure that the conversions are acurate
     let keys = Object.keys(romanNumeral).map(Number).sort((a, b) => b - a);
   
     // for each key in the sorted keys array...
